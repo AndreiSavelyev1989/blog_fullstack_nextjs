@@ -17,8 +17,8 @@ const ThemeToggle = () => {
       }
       onClick={() => toggle()}
     >
-      <Image src="/moon.png" width={14} height={14} />
       <Image src="/sun.png" width={14} height={14} />
+      <Image src="/moon.png" width={14} height={14} />
       <div
         className={
           theme === "light"
